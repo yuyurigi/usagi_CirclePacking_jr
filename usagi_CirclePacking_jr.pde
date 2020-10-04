@@ -29,14 +29,14 @@ void setup() {
   cam = new PeasyCam(this, 220); // カメラワーク操作オブジェクト。親オブジェクトと距離?を指定  
   cam.rotateX(-HALF_PI);
 
-  //うさぎの位置(ux, uy, uz)、うさぎのスケール(us)
+  //うさぎの位置(ux, uy, uz)
   if (usagi == 1) {
     ux= 10;
-    uy= 0; 
+    uy= 50; 
     uz= -50;
-    bwidth = 200; //cornell_box
-    bheight = 200;
-    bdepth = 250;
+    bwidth = 300; //cornell_box
+    bheight = 300;
+    bdepth = 350;
   } else if (usagi == 2) {
     ux =0;
     uy = 30;
